@@ -17,6 +17,9 @@ export default {
       },
       animation: {
         'slideDown': 'slideDown 0.2s ease-in-out',
+      },
+      backgroundImage: {
+        'slider-bg': "url('./img/bg/bgCoffee.jpg')",
       }
     },
   },
