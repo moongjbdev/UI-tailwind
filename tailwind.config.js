@@ -19,10 +19,15 @@ export default {
         slideDown: {
           '0%': { transform: 'translateY(-100%)', opacity: 0 },
           '100%': { transform: 'translateY(0)', opacity: 1 },
+        },
+        fadeIn: {
+          '0%' : { opacity: 0, transform: 'translate(-50%,50%)', },
+          '100%': { opacity: 1, transform: 'translate(-50%,0)' },
         }
       },
       animation: {
         'slideDown': 'slideDown 0.2s ease-in-out',
+        'fadeIn': 'fadeIn .5s ease-in-out',
       },
       backgroundImage: {
         'slider-bg': "url('./img/bg/bgCoffee.jpg')",
