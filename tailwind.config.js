@@ -7,7 +7,13 @@ export default {
         Karla: ["Karla", "sans-serif"]
       },
       colors: {
-        'light-coffee': '#C89F94'
+        'coffee': {
+          100: '#E8D6D0',
+          200: '#C89F94',
+          400: '#A25F4B',
+          600: '#744838'
+          
+        }
       },
       keyframes: {
         slideDown: {
@@ -20,7 +26,8 @@ export default {
       },
       backgroundImage: {
         'slider-bg': "url('./img/bg/bgCoffee.jpg')",
-      }
+      },
+      
     },
   },
   plugins: [],
